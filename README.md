@@ -50,4 +50,3 @@ Si vous désirez en acheter un, ça coûte environ 8 euros.
 Chaque jour, un jeu différent.
 On terminera par le jeu que vous voulez.
 
-Voilà, le texte respire un peu mieux maintenant.
