@@ -44,6 +44,9 @@ Pour cela nous allons utiliser ce que l on appelle un Pico2W.
 Un petit appareil qui permet des simulers des touches de clavier et une souris.
 Si vous desirez en acheter un ca cout 8euro
 
+Chaque jour un jeu different
+On terminera par le jeu que vous voulez.
+
 
 
 
