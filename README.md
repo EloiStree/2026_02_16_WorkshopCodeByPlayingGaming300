@@ -1,3 +1,22 @@
+NES ,UI and Input from Unity To Godot
+https://github.com/EloiStree/2026_02_05_workshop_nid_nes_git_and_sobel/tree/main/CreateNesInUnity
+
+
+To Do:
+- Xbox
+  - [ ] Install ESP32S3 Xinput simulator
+  - [ ] Listen to One Xbox in Godot
+  - [ ] Install XOMI on Window Tutorial
+  - [ ] Listen to Four Xbox in Godot
+- Clavier
+  - [ ] Install Scratch To Warcraft sur Window
+  - [ ] (Install Keyboard sur Pico2W(
+
+De Zero a Niveaux:
+- Faire un tutorial ou l on part de Zero pour finir des niveaux de jeux.
+
+-----------
+
 
 # Workshop Code By Playing Gaming 300
 
