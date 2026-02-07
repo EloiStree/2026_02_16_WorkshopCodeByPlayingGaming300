@@ -10,7 +10,12 @@ To Do:
   - [ ] Listen to Four Xbox in Godot
 - Clavier
   - [ ] Install Scratch To Warcraft sur Window
-  - [ ] (Install Keyboard sur Pico2W(
+  - [ ] (Install Keyboard sur Pico2W( 
+- Tutorial
+  - [ ] Utiliser le Input Map de Godot  https://youtu.be/WhDf1fgjizk?t=132
+  - [ ] Lire les inputs XInput de quatre manette en Godot sans le input map.
+  - [ ] Lire les inputs des joysticks (NES par example en Godot)
+  - [ ] Configurer les touches d un jeu avec Label -> Key , Xinput, or Joystick  et sauver cela.
 
 De Zero a Niveaux:
 - Faire un tutorial ou l on part de Zero pour finir des niveaux de jeux.
