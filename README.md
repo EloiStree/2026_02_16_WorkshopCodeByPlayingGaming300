@@ -20,6 +20,13 @@ To Do:
 De Zero a Niveaux:
 - Faire un tutorial ou l on part de Zero pour finir des niveaux de jeux.
 
+
+Tool Hardware: 
+- [x] [ESP32 to XInput](https://github.com/EloiStree/2024_11_21_arduino_esp32_to_xinput_with_udp/tree/main)
+- [x] [XOMI](https://github.com/Eloistree/XOMI) 
+- [ ] PicoW to Keyboard
+- [ ] [S2W](https://github.com/Eloistree/S2W)
+
 -----------
 
 
