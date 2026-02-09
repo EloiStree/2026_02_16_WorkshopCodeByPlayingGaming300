@@ -24,7 +24,7 @@ De Zero a Niveaux:
 Tool Hardware: 
 - [x] [ESP32 to XInput](https://github.com/EloiStree/2024_11_21_arduino_esp32_to_xinput_with_udp/)
 - [x] [XOMI](https://github.com/Eloistree/XOMI) 
-- [ ] [S2W](https://github.com/Eloistree/S2W)
+- [x] [S2W](https://github.com/Eloistree/S2W)
 - [ ] PicoW to Keyboard
 
 -----------
