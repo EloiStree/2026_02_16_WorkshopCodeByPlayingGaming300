@@ -36,6 +36,60 @@ https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/
 
 ----------------------------------
 
+La permier etape est pour moi.
+
+Je ne peux pas vous apprendre le premier jour comment on envoi des petites messages entre les ordinateurs.
+
+Je dois donc coder en godot un outil qui vise quelque part.
+- Vers une addresse IP :  lordinateur que l on veut viser.
+- Vers un port : l application que lon veut viser
+- vers une joueur : le numbero du joueur ou de la manette.
+
+Et comme on veut pas le changer en permanence, je dois creer un script que ce souviendra de ce que vous lui donner.
+
+----------------------|
+
+# Premier exercice
+
+## Hello World ;)
+
+Par tradition le premier exercice est d afficher dans la console un message qui dit "bonjour le monde"
+
+- [ ] Ajoutons un bouton
+- [ ] Creatons un script godot
+- [ ] Affichons print dans _ready.
+- [ ] Voir ce que ca donne
+- [ ] Faire un methode qui est appellable
+- [ ] Appeler la methode avec le bouton
+- [ ] Ajouter un Label dans la fenetre
+- [ ] Ajouter un export dans dans le script du label
+- [ ] Deposer le label
+- [ ] Changer le text du label avec du code.
+- [ ] Tada vous etes maintenant un developeur d application.
+
+
+## Envoyons un Hello World sur mon ordinateur.
+
+To DO:
+- [ ] Rajouter a Unity NES un recepteur UDP pour le text sur le port 3614.
+  - [ ] Pour apprendre le fait d envoyer un messsage sur le reseau plus facilement.
+
+Comme on veut envoyer le message sur un autre ordinateur.
+Il faut utiliser mon script.
+
+- [ ] Deposons un Node (un element du projet) pour envoyer des messages
+- [ ] Changeons vers qui il vise : ip , port , player
+- [ ] Ajoutons dans votre script un export qui visera vers mon script
+- [ ] Appelons la methode send_text avec en parametre un Hello World
+- [ ] Ta da, normamlement vous devriez voir un message Hello World dans le jeu NES Multi.
+
+
+
+
+
+
+
+
 
 
 
