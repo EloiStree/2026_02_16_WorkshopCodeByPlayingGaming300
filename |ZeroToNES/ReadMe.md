@@ -163,6 +163,10 @@ func _on_Timer_timeout():
 ```
 
 
+# Decimal to integer
+
+https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42
+
 
 
 
