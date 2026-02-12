@@ -86,6 +86,82 @@ Il faut utiliser mon script.
 
 
 
+## Ca ressemble a quoi en Python et en Godot d envoyer des messages text ?
+
+``` python
+import socket
+import time
+import random
+
+PORT = 3614
+BROADCAST_IP = "127.0.0.1"  
+
+messages = [
+    "Hello, this is a random message!",
+    "How are you doing today?",
+    "Python is great for socket programming.",
+    "This is a test message.",
+    "Random message number 5.",
+    "Did you know that Python was named after Monty Python?",
+    "Sockets are a way to communicate between processes.",
+]
+
+# Create UDP socket
+with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
+    s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+    print(f"Broadcasting messages on UDP port {PORT} every 2 seconds")
+
+    try:
+        while True:
+            message = random.choice(messages)
+            s.sendto(message.encode("utf-8"), (BROADCAST_IP, PORT))
+            print(f"Broadcasted: {message}")
+            time.sleep(2)
+    except KeyboardInterrupt:
+        print("Exiting...")
+```
+
+``` gdscript
+extends Node
+
+var udp := PacketPeerUDP.new()
+var messages := [
+    "Hello, this is a random message!",
+    "How are you doing today?",
+    "Python is great for socket programming.",
+    "This is a test message.",
+    "Random message number 5.",
+    "Did you know that Python was named after Monty Python?",
+    "Sockets are a way to communicate between processes."
+]
+
+func _ready():
+    # Bind to any port to send (0 means OS picks)
+    var err = udp.listen(0)
+    if err != OK:
+        print("Failed to open UDP socket")
+        return
+
+    # Use a timer to send messages every 2 seconds
+    var timer = Timer.new()
+    timer.wait_time = 2
+    timer.autostart = true
+    timer.one_shot = false
+    add_child(timer)
+    timer.connect("timeout", self, "_on_Timer_timeout")
+
+
+func _on_Timer_timeout():
+    var message = messages[randi() % messages.size()]
+    var data = message.to_utf8()
+    udp.set_dest_address("127.0.0.1", 3614)
+    var sent = udp.put_packet(data)
+    if sent != OK:
+        print("Failed to send packet")
+    else:
+        print("Sent:", message)
+```
+
 
 
 
