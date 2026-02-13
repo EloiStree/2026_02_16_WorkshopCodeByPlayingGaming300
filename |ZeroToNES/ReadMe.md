@@ -169,6 +169,11 @@ https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42
 
 
 
+# Lets avoid anchor for now
+
+-Resolution of Screen https://www.youtube.com/watch?v=Ua3qYveevow
+- Anchor and pixel https://youtu.be/9eAYhlStl-Q?t=545
+
 
 
 
