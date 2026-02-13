@@ -175,6 +175,8 @@ https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42
 - Anchor and pixel https://youtu.be/9eAYhlStl-Q?t=545
 
 
+- https://hardwaretester.com/gamepad
+
 
 
 
