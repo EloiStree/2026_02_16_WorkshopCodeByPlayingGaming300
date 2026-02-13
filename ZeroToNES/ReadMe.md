@@ -1,4 +1,12 @@
 
+To Do:
+- [ ] Ajouter un script qui utiliser le action system de Godot pour les 8 bouttons de la NES
+- [ ] Ajouter un script qui prendre un nom de manette, un button et transform en event
+- [ ] Ajotuer un script qui prenre un nom de manette, un axis et let transform en event sur les bord et la death zone
+
+--------- 
+
+
 Salut a toi ;)
 
 Nous allons apprendre a programmer en Godot en partant de Zero.
