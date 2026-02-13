@@ -5,7 +5,7 @@ Nous allons apprendre a programmer en Godot en partant de Zero.
 Mais plutot que de faire un jeu, nous allons jouer a des jeux avec des simulateurs de Manete Xbox 😋.
 
 J ai creer un atelier pour Unity 3D qui s appelle de Zero a NES.
-Cours: https://github.com/EloiStree/2025_01_19_WorkshopNesOnAndroid
+Cours: https://github.com/EloiStree/2026_02_05_workshop_nid_nes_git_and_sobel/tree/main/CreateNesInUnity
 Video: https://youtu.be/dLRaB3z-4DQ
 
 L idee est d apprendre la programmation en creant une manette NES sur telephone avec les UI du game engine et les touches de claviers / manettes.
