@@ -5,7 +5,7 @@ To Do:
 - [ ] Ajotuer un script qui prenre un nom de manette, un axis et let transform en event sur les bord et la death zone
 - [ ] Finir la page A4 pour les touches Xbox
 - [ ] Uploaded the code sur les ESP32
-
+- [ ] Trouver une methode pour avoir des bouttons utilisants le touch du telephone [🎥](https://youtu.be/y_X5BVMQPqw?t=172)
 --------- 
 
 
