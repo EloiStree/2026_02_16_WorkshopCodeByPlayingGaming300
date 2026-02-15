@@ -1,5 +1,5 @@
 
-| Action      | Player 1 | Player 2 |
+| Action      | Press | Release |
 | ----------- | -------- | -------- |
 | Menu Left   | 1309     | 2309     |
 | Menu Right  | 1308     | 2308     |
@@ -10,7 +10,8 @@
 | A Button    | 1300     | 2300     |
 | B Button    | 1302     | 2302     |
 
-Les touches des jeux:[🖼️](https://github.com/user-attachments/assets/e82976cc-f99b-42dc-b181-0c987451eea4)
+Les touches des jeux:[🖼️](https://github.com/user-attachments/assets/e82976cc-f99b-42dc-b181-0c987451eea4)   
+Mots clés: [📖](https://miro.com/app/board/uXjVGUVLhc8=/)   
 
 -------------------------
 
