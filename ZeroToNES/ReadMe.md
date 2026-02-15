@@ -1,193 +1,149 @@
-![Hello Input PlayTo](https://github.com/user-attachments/assets/e82976cc-f99b-42dc-b181-0c987451eea4)
+A4 Touches:[🖼️](https://github.com/user-attachments/assets/e82976cc-f99b-42dc-b181-0c987451eea4)
 
-To Do:
-- [ ] Ajouter un script qui utiliser le action system de Godot pour les 8 bouttons de la NES
-- [ ] Ajouter un script qui prendre un nom de manette, un button et transform en event
-- [ ] Ajotuer un script qui prenre un nom de manette, un axis et let transform en event sur les bord et la death zone
-- [ ] Finir la page A4 pour les touches Xbox
-- [ ] Uploaded the code sur les ESP32
-- [ ] Trouver une methode pour avoir des bouttons utilisants le touch du telephone [🎥](https://youtu.be/y_X5BVMQPqw?t=172)
---------- 
+## Planning
 
+*Va changer durant la semaine*
 
-Salut a toi ;)
+### Lundi : 10 Seconds Ninja
 
-Nous allons apprendre a programmer en Godot en partant de Zero.
-Mais plutot que de faire un jeu, nous allons jouer a des jeux avec des simulateurs de Manete Xbox 😋.
+**Matin :**
 
-J ai creer un atelier pour Unity 3D qui s appelle de Zero a NES.
-Cours: https://github.com/EloiStree/2026_02_05_workshop_nid_nes_git_and_sobel/tree/main/CreateNesInUnity
-Video: https://youtu.be/dLRaB3z-4DQ
+* Ouvrir Godot et utiliser des boutons pour jouer
+  * Utiliser : gauche, droite, sword, shuriken et restart
+* Bouger le Ninja avec son code
 
-L idee est d apprendre la programmation en creant une manette NES sur telephone avec les UI du game engine et les touches de claviers / manettes.
-Une fois la manette NES creer, on essai de jouer as des jeux avec du code en creant ce que lon appelle des macros.
+**Après-midi :**
 
-Pour cela nous devons apprendre ce qu est un String ( du text) et pratiquer le fait de faire attendre notre code.
+* "Hello World" : delay et await
+* Challenge sans manette :
+  * Essayer de faire le meilleur score au niveau 1
+  * Essayer de finir 3 niveaux
 
-Nous le pratiquons en creant une manette NES 
-Mais comme la repetition est mere du savoir, je vous laisserai pratiquer le fait de faire une manette Xbox par la suite.
-Il faut re-pratiquer pour que notre cerveaux assimile bien la matiere.
+---
 
----------------
+### Mardi : Stealth Bastard
 
-Comme vous ne savez pas encore ce qu est de la programmation.
-Je vous ai installer sur votre ordinateur un project (si vous etes en atelier avec moi)
+**Matin :**
 
-Lien du project: 
-https://github.com/EloiStree/2026_01_18_godot_nes_controller_udp
+* Le code, c’est quoi : variable, méthode, paramètre, énumération
+* Finir le niveau 1 avec du code en utilisant les méthodes
 
-Qui utilie une boite a outils que je vous ai preparer:   
-https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp  
+**Après-midi :**
 
-Pratiquons notre code sur ce jeu localement avant de faire du pilote mes ordinateurs distances:
-https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/2026_02_12
+* Utiliser les boutons d’une manette NES pour jouer
 
-[<img width="1275" height="662" alt="image" src="https://github.com/user-attachments/assets/74f2d2fd-162c-4f7e-b769-b17701446292" />](https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/2026_02_12
-)
+---
 
-----------------------------------
+### Mercredi : TowerFall
 
-La permier etape est pour moi.
+**Matin :**
 
-Je ne peux pas vous apprendre le premier jour comment on envoi des petites messages entre les ordinateurs.
+* Créons notre propre langage :
+  `A. 80 > a`
+  `1000 > b`
+  `80 > b1`
 
-Je dois donc coder en godot un outil qui vise quelque part.
-- Vers une addresse IP :  lordinateur que l on veut viser.
-- Vers un port : l application que lon veut viser
-- vers une joueur : le numbero du joueur ou de la manette.
+**Après-midi :**
 
-Et comme on veut pas le changer en permanence, je dois creer un script que ce souviendra de ce que vous lui donner.
+* Permettre de jouer à quatre sur TowerFall
+* Challenge :
+  * Ajouter une macro pour tirer vers le haut
+  * Ajouter une macro pour lancer deux flèches
+  * Ajouter une macro pour sauter le plus haut possible
 
-----------------------|
+---
 
-# Premier exercice
+### Jeudi : Silksong
 
-## Hello World ;)
+**Matin :**
 
-Par tradition le premier exercice est d afficher dans la console un message qui dit "bonjour le monde"
+* Améliorons le code d’hier avec des dictionnaires
+* Challenge A :
+  * Redémarrer le niveau
+  * Supprimer la sauvegarde et recommencer le niveau
 
-- [ ] Ajoutons un bouton
-- [ ] Creatons un script godot
-- [ ] Affichons print dans _ready.
-- [ ] Voir ce que ca donne
-- [ ] Faire un methode qui est appellable
-- [ ] Appeler la methode avec le bouton
-- [ ] Ajouter un Label dans la fenetre
-- [ ] Ajouter un export dans dans le script du label
-- [ ] Deposer le label
-- [ ] Changer le text du label avec du code.
-- [ ] Tada vous etes maintenant un developeur d application.
+**Après-midi :**
 
+* Challenge B :
+  * Aller jusqu’au boss avec du code
+* Challenge S :
+  * Trouver des automatisations pour finir le boss
+* Challenge S+ :
+  * Finir le boss sans manette
 
-## Envoyons un Hello World sur mon ordinateur.
+---
 
-To DO:
-- [ ] Rajouter a Unity NES un recepteur UDP pour le text sur le port 3614.
-  - [ ] Pour apprendre le fait d envoyer un messsage sur le reseau plus facilement.
+### Vendredi : Vous choisissez le jeu
 
-Comme on veut envoyer le message sur un autre ordinateur.
-Il faut utiliser mon script.
+**Matin :**
 
-- [ ] Deposons un Node (un element du projet) pour envoyer des messages
-- [ ] Changeons vers qui il vise : ip , port , player
-- [ ] Ajoutons dans votre script un export qui visera vers mon script
-- [ ] Appelons la methode send_text avec en parametre un Hello World
-- [ ] Ta da, normamlement vous devriez voir un message Hello World dans le jeu NES Multi.
+* Faire la vidéo de Brackeys sur le jeu 2D
 
+**Après-midi :**
 
+* Essayer l’atelier sur un jeu que vous avez choisi
 
+---
 
-## Ca ressemble a quoi en Python et en Godot d envoyer des messages text ?
+# Introduction
 
-``` python
-import socket
-import time
-import random
+Salut à toi ;)
 
-PORT = 3614
-BROADCAST_IP = "127.0.0.1"  
+Nous allons apprendre à programmer en Godot et jouer à des jeux avec des simulateurs de manette Xbox 😋.
 
-messages = [
-    "Hello, this is a random message!",
-    "How are you doing today?",
-    "Python is great for socket programming.",
-    "This is a test message.",
-    "Random message number 5.",
-    "Did you know that Python was named after Monty Python?",
-    "Sockets are a way to communicate between processes.",
-]
+J’ai créé un atelier pour Unity 3D qui s’appelle **De Zéro à NES**.
 
-# Create UDP socket
-with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
-    s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-    print(f"Broadcasting messages on UDP port {PORT} every 2 seconds")
+Cours :
+[https://github.com/EloiStree/2026_02_05_workshop_nid_nes_git_and_sobel/tree/main/CreateNesInUnity](https://github.com/EloiStree/2026_02_05_workshop_nid_nes_git_and_sobel/tree/main/CreateNesInUnity)
 
-    try:
-        while True:
-            message = random.choice(messages)
-            s.sendto(message.encode("utf-8"), (BROADCAST_IP, PORT))
-            print(f"Broadcasted: {message}")
-            time.sleep(2)
-    except KeyboardInterrupt:
-        print("Exiting...")
-```
+Vidéo :
+[https://youtu.be/dLRaB3z-4DQ](https://youtu.be/dLRaB3z-4DQ)
 
-``` gdscript
-extends Node
+Que j’ai refait en Godot :
+Vidéo : https://youtu.be/vK-fF6DpObk
 
-var udp := PacketPeerUDP.new()
-var messages := [
-    "Hello, this is a random message!",
-    "How are you doing today?",
-    "Python is great for socket programming.",
-    "This is a test message.",
-    "Random message number 5.",
-    "Did you know that Python was named after Monty Python?",
-    "Sockets are a way to communicate between processes."
-]
+L’idée est d’apprendre la programmation en créant une manette NES sur téléphone avec les UI de Godot ainsi que les touches clavier / manette.
 
-func _ready():
-    # Bind to any port to send (0 means OS picks)
-    var err = udp.listen(0)
-    if err != OK:
-        print("Failed to open UDP socket")
-        return
+Pour cela, nous devons apprendre ce qu’est un **String** (du texte) et pratiquer le fait de faire attendre notre code.
 
-    # Use a timer to send messages every 2 seconds
-    var timer = Timer.new()
-    timer.wait_time = 2
-    timer.autostart = true
-    timer.one_shot = false
-    add_child(timer)
-    timer.connect("timeout", self, "_on_Timer_timeout")
+Nous le pratiquons en créant une manette NES.
 
+Mais comme la répétition est mère du savoir, je vous laisserai pratiquer ensuite en créant une manette Xbox.
+Il faut repratiquer pour que notre cerveau assimile bien la matière.
 
-func _on_Timer_timeout():
-    var message = messages[randi() % messages.size()]
-    var data = message.to_utf8()
-    udp.set_dest_address("127.0.0.1", 3614)
-    var sent = udp.put_packet(data)
-    if sent != OK:
-        print("Failed to send packet")
-    else:
-        print("Sent:", message)
-```
+---
 
+## Installation
 
-# Decimal to integer
+Comme vous ne savez pas encore ce qu’est la programmation,
+je vous ai installé sur votre ordinateur un projet (si vous êtes en atelier avec moi).
 
-https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42
+Lien du projet :
 
+* [https://github.com/EloiStree/2026_01_18_godot_nes_controller_udp](https://github.com/EloiStree/2026_01_18_godot_nes_controller_udp)
+* [https://github.com/HelloGodotPi/2026_02_16_godot_nes_g300](https://github.com/HelloGodotPi/2026_02_16_godot_nes_g300)
 
+Qui utilise une boîte à outils que je vous ai préparée :
+[https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp](https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp)
 
-# Lets avoid anchor for now
+Pratiquons notre code sur ce jeu localement avant de piloter mes ordinateurs à distance :
 
--Resolution of Screen https://www.youtube.com/watch?v=Ua3qYveevow
-- Anchor and pixel https://youtu.be/9eAYhlStl-Q?t=545
+* [https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/2026_02_12](https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/2026_02_12)
+* [https://github.com/EloiStree/2026_01_18_gdp_nes_udp_multiplayer/releases/tag/V2026_02_15](https://github.com/EloiStree/2026_01_18_gdp_nes_udp_multiplayer/releases/tag/V2026_02_15)
 
+---
 
-- https://hardwaretester.com/gamepad
+# Note annexe
 
+## Decimal to integer
 
+[https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42](https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42)
+[https://hardwaretester.com/gamepad](https://hardwaretester.com/gamepad)
 
+---
+
+## Still to do
+
+* [ ] Upload du code sur les ESP32
+* [ ] Trouver une méthode pour avoir des boutons utilisant le touch du téléphone
 
