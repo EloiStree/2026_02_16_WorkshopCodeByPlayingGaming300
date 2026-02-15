@@ -105,55 +105,13 @@ Salut à toi ;)
 
 Nous allons apprendre à programmer en Godot et jouer à des jeux avec des simulateurs de manette Xbox 😋.
 
-J’ai créé un atelier pour Unity 3D qui s’appelle **De Zéro à NES**.
+J’ai créé un atelier pour Unity 3D qui s’appelle **De Zéro à NES** .
+Cours:[📖](https://github.com/EloiStree/2026_02_05_workshop_nid_nes_git_and_sobel/tree/main/CreateNesInUnity) Vidéo : [🎥](https://youtu.be/dLRaB3z-4DQ)   
 
-Cours :
-[https://github.com/EloiStree/2026_02_05_workshop_nid_nes_git_and_sobel/tree/main/CreateNesInUnity](https://github.com/EloiStree/2026_02_05_workshop_nid_nes_git_and_sobel/tree/main/CreateNesInUnity)
-
-Vidéo :
-[https://youtu.be/dLRaB3z-4DQ](https://youtu.be/dLRaB3z-4DQ)
-
-Que j’ai refait en Godot :
-Vidéo : https://youtu.be/vK-fF6DpObk
+Que j’ai refait en Godot, ici : [🎥](https://youtu.be/vK-fF6DpObk)  
+(_Vidéo montrant comment j’ai créé le cours._)
 
 L’idée est d’apprendre la programmation en créant une manette NES sur téléphone avec les UI de Godot ainsi que les touches clavier / manette.
-
-Pour cela, nous devons apprendre ce qu’est un **String** (du texte) et pratiquer le fait de faire attendre notre code.
-
-Nous le pratiquons en créant une manette NES.
-
-Mais comme la répétition est mère du savoir, je vous laisserai pratiquer ensuite en créant une manette Xbox.
-Il faut repratiquer pour que notre cerveau assimile bien la matière.
-
----
-
-## Installation
-
-Comme vous ne savez pas encore ce qu’est la programmation,
-je vous ai installé sur votre ordinateur un projet (si vous êtes en atelier avec moi).
-
-Lien du projet :
-
-* [https://github.com/EloiStree/2026_01_18_godot_nes_controller_udp](https://github.com/EloiStree/2026_01_18_godot_nes_controller_udp)
-* [https://github.com/HelloGodotPi/2026_02_16_godot_nes_g300](https://github.com/HelloGodotPi/2026_02_16_godot_nes_g300)
-
-Qui utilise une boîte à outils que je vous ai préparée :
-[https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp](https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp)
-
-Pratiquons notre code sur ce jeu localement avant de piloter mes ordinateurs à distance :
-
-* [https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/2026_02_12](https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/2026_02_12)
-* [https://github.com/EloiStree/2026_01_18_gdp_nes_udp_multiplayer/releases/tag/V2026_02_15](https://github.com/EloiStree/2026_01_18_gdp_nes_udp_multiplayer/releases/tag/V2026_02_15)
-
----
-
-# Note annexe
-
-## Decimal to integer
-
-[https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42](https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42)
-[https://hardwaretester.com/gamepad](https://hardwaretester.com/gamepad)
-
 
 ---------
 
@@ -273,7 +231,28 @@ Pratiquons notre code sur ce jeu localement avant de piloter mes ordinateurs à 
 
 * [ ] **NesParseIntegerToString** : De int à String, d’un entier à du texte
 
----------------
+---
+
+## Code du cours
+
+
+* [https://github.com/EloiStree/2026_01_18_godot_nes_controller_udp](https://github.com/EloiStree/2026_01_18_godot_nes_controller_udp)
+* [https://github.com/HelloGodotPi/2026_02_16_godot_nes_g300](https://github.com/HelloGodotPi/2026_02_16_godot_nes_g300)
+* [https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp](https://github.com/EloiStree/2026_01_18_gdp_nes_controller_udp)
+* [https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/2026_02_12](https://github.com/EloiStree/2026_01_18_unity_nes_multi_controller/releases/tag/2026_02_12)
+* [https://github.com/EloiStree/2026_01_18_gdp_nes_udp_multiplayer/releases/tag/V2026_02_15](https://github.com/EloiStree/2026_01_18_gdp_nes_udp_multiplayer/releases/tag/V2026_02_15)
+
+---
+
+# Note annexe
+
+## Decimal to integer
+
+[https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42](https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42)
+[https://hardwaretester.com/gamepad](https://hardwaretester.com/gamepad)
+
+
+
 
 # De Zero a NES version  Godot
 - [00:03](https://www.youtube.com/watch?v=vK-fF6DpObk&t=3s) Configurer un ESP32 pour simuler une manette Xbox en Bluetooth
