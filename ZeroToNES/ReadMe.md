@@ -1,4 +1,18 @@
-A4 Touches:[🖼️](https://github.com/user-attachments/assets/e82976cc-f99b-42dc-b181-0c987451eea4)
+
+| Action      | Player 1 | Player 2 |
+| ----------- | -------- | -------- |
+| Menu Left   | 1309     | 2309     |
+| Menu Right  | 1308     | 2308     |
+| Up Arrow    | 1331     | 2331     |
+| Down Arrow  | 1335     | 2335     |
+| Left Arrow  | 1337     | 2337     |
+| Right Arrow | 1333     | 2333     |
+| A Button    | 1300     | 2300     |
+| B Button    | 1302     | 2302     |
+
+Les touches des jeux:[🖼️](https://github.com/user-attachments/assets/e82976cc-f99b-42dc-b181-0c987451eea4)
+
+-------------------------
 
 ## Planning
 
@@ -153,13 +167,69 @@ Pratiquons notre code sur ce jeu localement avant de piloter mes ordinateurs à 
 
 ---------
 
+## A voir
+- [ ] print(Hello world)
+- [ ] Label
+  - [ ] Comment change un label a Hello World avec des bouttons
+  - [ ] Commment changer un label a Hello World avec du code
+- [ ] Button
+  - [ ] Appelle d une methode
+  - [ ] Appelle d une methode avec un parametre
+- [ ] Toggle
+  - [ ] Methode recevant un boolean
+-  [ ] Afficher 100 x Hello World ([Simpsons](https://simpsons.fandom.com/wiki/List_of_chalkboard_gags))
+  - [ ] utiliser await pour prendre son temps
+- [ ] LineEdit
+  - [ ] Changer un Label
+  - [ ] Utiliser un print sur le changement
+  - [ ] Utiliser un print sur la validation
+  - [ ] * Ajouter de la memoire au LineEdit
+- [ ] Faire parler un cube
+  - [ ] StaticBody3D
+    - [ ] MeshInstance3D
+    - [ ] CollisionShape3D
+- [ ] Un Panel dans un panel
+  - [ ] Utiliser les ancres et pas les offets
+  - [ ] Ratio
+  - [ ] VBox et HBox
+  - [ ] Faire un NES
+  - [ ] Ajouter un image clickable
+- [ ] Reseau
+  - [ ] UDP ?
+  - [ ] 101010 ? 
+  - [ ] IP ?
+  - [ ] Port ?
+- [ ] Input Map
+  - [ ] Ajouter un action / touche(s)
+  - [ ] Ecouter la touche
+  - [ ] * Ajouter quatres axes de joysticks
+    - [ ]  * Utiliser en Vector2
+- [ ] Exporter son jeu
+  - [ ] Exporter sur Android
+
+Pour le fun:
+- [ ] Avancer et reculer un cube
+- [ ] Tourner un cube de gauche a droite
+- [ ] Remplacer le cube par Steve
+- [ ] Ajouter une texture de Steve
+
+
+--------------------
+
+# Godot NES
+
+- FacadeNesToUdp permet de faire tout les exercices.
+
+
+
+---------------
 
 # De Zero a NES version  Godot
 - [00:03](https://www.youtube.com/watch?v=vK-fF6DpObk&t=3s) Configurer un ESP32 pour simuler une manette Xbox en Bluetooth
 - [05:50](https://www.youtube.com/watch?v=vK-fF6DpObk&t=350s) Faire un Hello World sur Godot pour le fun
 - [08:06](https://www.youtube.com/watch?v=vK-fF6DpObk&t=486s) Définir un Label dans Godot
 - [08:52](https://www.youtube.com/watch?v=vK-fF6DpObk&t=532s) Créer un envoyeur UDP pour du texte UTF-8
-v[12:43](https://www.youtube.com/watch?v=vK-fF6DpObk&t=763s) Le tester sur NES Multi dans Unity3D
+- [12:43](https://www.youtube.com/watch?v=vK-fF6DpObk&t=763s) Le tester sur NES Multi dans Unity3D
 - [14:48](https://www.youtube.com/watch?v=vK-fF6DpObk&t=888s) Utiliser un Toggle dans Godot
 - [18:49](https://www.youtube.com/watch?v=vK-fF6DpObk&t=1129s) C’est quoi un entier et le binaire ?
 - [20:30](https://www.youtube.com/watch?v=vK-fF6DpObk&t=1230s) Créer un envoyeur UDP pour des entiers (int)
