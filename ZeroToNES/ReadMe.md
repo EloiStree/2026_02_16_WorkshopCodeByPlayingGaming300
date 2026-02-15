@@ -154,73 +154,124 @@ Pratiquons notre code sur ce jeu localement avant de piloter mes ordinateurs à 
 [https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42](https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=42)
 [https://hardwaretester.com/gamepad](https://hardwaretester.com/gamepad)
 
----
-
-## Still to do
-
-* [ ] Upload du code sur les ESP32
-* [ ] Trouver une méthode pour avoir des boutons utilisant le touch du téléphone
-
-
-
-
 
 ---------
 
-## A voir
-- [ ] print(Hello world)
-- [ ] Label
-  - [ ] Comment change un label a Hello World avec des bouttons
-  - [ ] Commment changer un label a Hello World avec du code
-- [ ] Button
-  - [ ] Appelle d une methode
-  - [ ] Appelle d une methode avec un parametre
-- [ ] Toggle
-  - [ ] Methode recevant un boolean
--  [ ] Afficher 100 x Hello World ([Simpsons](https://simpsons.fandom.com/wiki/List_of_chalkboard_gags))
-  - [ ] utiliser await pour prendre son temps
-- [ ] LineEdit
-  - [ ] Changer un Label
-  - [ ] Utiliser un print sur le changement
-  - [ ] Utiliser un print sur la validation
-  - [ ] * Ajouter de la memoire au LineEdit
-- [ ] Faire parler un cube
-  - [ ] StaticBody3D
-    - [ ] MeshInstance3D
-    - [ ] CollisionShape3D
-- [ ] Un Panel dans un panel
-  - [ ] Utiliser les ancres et pas les offets
-  - [ ] Ratio
-  - [ ] VBox et HBox
-  - [ ] Faire un NES
-  - [ ] Ajouter un image clickable
-- [ ] Reseau
-  - [ ] UDP ?
-  - [ ] 101010 ? 
-  - [ ] IP ?
-  - [ ] Port ?
-- [ ] Input Map
-  - [ ] Ajouter un action / touche(s)
-  - [ ] Ecouter la touche
-  - [ ] * Ajouter quatres axes de joysticks
-    - [ ]  * Utiliser en Vector2
-- [ ] Exporter son jeu
-  - [ ] Exporter sur Android
+## À voir
 
-Pour le fun:
-- [ ] Avancer et reculer un cube
-- [ ] Tourner un cube de gauche a droite
-- [ ] Remplacer le cube par Steve
-- [ ] Ajouter une texture de Steve
+* [ ] `print("Hello World")`
+* [ ] **Label**
+
+  * [ ] Comment changer un Label en « Hello World » avec des boutons
+  * [ ] Comment changer un Label en « Hello World » avec du code
+* [ ] **Button**
+
+  * [ ] Appel d’une méthode
+  * [ ] Appel d’une méthode avec un paramètre
+* [ ] **Toggle**
+
+  * [ ] Méthode recevant un booléen
+* [ ] Afficher 100 × « Hello World » ([Simpsons](https://simpsons.fandom.com/wiki/List_of_chalkboard_gags))
+
+  * [ ] Utiliser `await` pour prendre son temps
+* [ ] **LineEdit**
+
+  * [ ] Changer un Label
+  * [ ] Utiliser un `print` lors du changement
+  * [ ] Utiliser un `print` lors de la validation
+  * [ ] * Ajouter de la mémoire au LineEdit
+* [ ] Faire parler un cube
+
+  * [ ] **StaticBody3D**
+
+    * [ ] **MeshInstance3D**
+    * [ ] **CollisionShape3D**
+* [ ] Un Panel dans un Panel
+
+  * [ ] Utiliser les ancres et pas les offsets
+  * [ ] Ratio
+  * [ ] VBox et HBox
+  * [ ] Faire une NES
+  * [ ] Ajouter une image cliquable
+* [ ] Réseau
+
+  * [ ] UDP ?
+  * [ ] 101010 ?
+  * [ ] IP ?
+  * [ ] Port ?
+* [ ] Input Map
+
+  * [ ] Ajouter une action / touche(s)
+  * [ ] Écouter la touche
+  * [ ] * Ajouter quatre axes de joystick
+
+    * [ ] * Utiliser en Vector2
+* [ ] Exporter son jeu
+
+  * [ ] Exporter sur Android
+
+---
+
+## Pour le fun
+
+* [ ] Avancer et reculer un cube
+* [ ] Tourner un cube de gauche à droite
+* [ ] Ajouter une texture au cube
+
+
 
 
 --------------------
 
+
 # Godot NES
 
-- FacadeNesToUdp permet de faire tout les exercices.
+## Node
 
+* [ ] **FacadeNesToUdp**
 
+  * Permet de faire tous les exercices.
+
+## Enum
+
+* [ ] **XboxControllerToInt.XboxCommandBasic**
+* [ ] **NesControllerToInt.NesButton**
+
+## Script
+
+* [ ] **NesControllerToInt** : Simuler une NES
+* [ ] **XboxControllerToInt** : Simuler une Xbox
+* [ ] **NesIntDelayer** : Retarde l’envoi d’un entier
+
+## Input Map
+
+* [ ] **NesInputMapActionDownUp** : Écouter une touche
+* [ ] **NesInputMapActionFloatAxis** : Écouter un axe
+
+## Brute
+
+* [ ] **NesFloatAxisToBoolEvent** : Transforme un joystick en signal
+* [ ] **NesInputDisplayButtonNameId** : Voir les boutons de la manette NES et leur nom
+* [ ] **NesInputDeviceButtonDownUp** : Écouter les boutons de la manette NES
+
+## LineEdit / InputField
+
+* [ ] **NesInputFieldFileMemory** : Donner de la mémoire au LineEdit
+* [ ] **NesSaveLoadStringValueFromFileMemory** : Sauvegarder et charger du texte
+
+## Texture Button
+
+* [ ] **NesRelayButtonS2wIntDownUp** : Écouter tous les boutons
+* [ ] **NesTextureButtonPlusToS2wIntDownUpBool** : Devenir un bouton écoutable
+
+## UDP
+
+* [ ] **NesSendIntegerMessageUdp** : Envoyer des entiers sur le réseau
+* [ ] **NesHelloWorldUdp** : Envoyer du texte sur le réseau
+
+## Autre
+
+* [ ] **NesParseIntegerToString** : De int à String, d’un entier à du texte
 
 ---------------
 
@@ -255,3 +306,13 @@ Pour le fun:
 - [01:43:47](https://www.youtube.com/watch?v=vK-fF6DpObk&t=6227s) Pour les joysticks (axes) ?
 - [01:52:46](https://www.youtube.com/watch?v=vK-fF6DpObk&t=6766s&pp=0gcJCTAAlc8ueATH) Permettre de réécrire les boutons et les flèches
 - [01:58:09](https://www.youtube.com/watch?v=vK-fF6DpObk&t=7089s) Un dernier check-up
+
+
+
+## Still to do
+
+* [ ] Upload du code sur les ESP32
+* [ ] Trouver une méthode pour avoir des boutons utilisant le touch du téléphone
+
+
+
